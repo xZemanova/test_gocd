@@ -14,6 +14,9 @@ Pipeline which created it: $GO_PIPELINE_NAME
 Pipeline counter was: $GO_PIPELINE_COUNTER
 
 Other things to publish, like variables etc.
+Environment variables: 
+%GO_test_variable_int
+%GO_test_variable_string
 ==== ==== ====
 </pre>
 <body>
