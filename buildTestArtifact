@@ -1,0 +1,21 @@
+
+#!/bin/bash
+
+echo "[GOCD Test Simulation] Simple artifact building example ..."
+
+cat >my-test-artifact.html <<EOF
+<html>
+<body>
+<h3>Test Report Artifact</h3>
+<pre>
+==== ==== ====
+An example artifact, created on: $(date)
+Pipeline which created it: $GO_PIPELINE_NAME
+Pipeline counter was: $GO_PIPELINE_COUNTER
+
+Other things to publish, like variables etc.
+==== ==== ====
+</pre>
+<body>
+</html>
+EOF
