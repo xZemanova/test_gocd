@@ -13,6 +13,9 @@ echo [GOCD Test Simulation] Simple artifact building example ...
   ECHO Pipeline which created it: %GO_PIPELINE_NAME%
   ECHO Pipeline counter was: %GO_PIPELINE_COUNTER%
   ECHO Other things to publish, like variables etc.
+  ECHO Environment variables: 
+  ECHO %GO_test_variable_int
+  ECHO %GO_test_variable_string
   ECHO ==== ==== ====
   ECHO ^</pre^>
   ECHO ^<body^>
